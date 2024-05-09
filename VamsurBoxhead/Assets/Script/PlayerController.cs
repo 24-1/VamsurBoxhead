@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public Rigidbody playerRigidbody;
     public float speed = 8f;
+    public float rotationSpeed = 10.0f;
+    Vector3 lookDirection;
 
     // Start is called before the first frame update
     void Start() {
@@ -22,6 +24,12 @@ public class PlayerController : MonoBehaviour
         float zSpeed = zInput * speed;
 
         Vector3 newVelocity = new Vector3(xSpeed, 0f, zSpeed);
+        
+        if (!(xInput == 0 && zInput == 0)) {
+            transform.position += newVelocity * speed * Time.deltaTime;
+            transform.rotation = Quaternion.Lerp(transform.rotation, 
+                                Quaternion.LookRotation(newVelocity), Time.deltaTime * rotationSpeed);
+        }
 
         playerRigidbody.velocity = newVelocity;
     }

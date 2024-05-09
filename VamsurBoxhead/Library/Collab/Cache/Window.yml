@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Materials.meta
+    - Assets/Materials/Bullet Color.mat
+    - Assets/Materials/Bullet Color.mat.meta
+    - Assets/Materials/Enemy Spawner Color.mat
+    - Assets/Materials/Enemy Spawner Color.mat.meta
+    - Assets/Materials/Gun Color.mat
+    - Assets/Materials/Gun Color.mat.meta
+    - Assets/Materials/Plane Color.mat
+    - Assets/Materials/Plane Color.mat.meta
+    - Assets/Materials/Player Body Color.mat
+    - Assets/Materials/Player Body Color.mat.meta
+    - Assets/Materials/Player Color.mat
+    - Assets/Materials/Player Color.mat.meta
+    - Assets/Materials/Player Skin Color.mat
+    - Assets/Materials/Player Skin Color.mat.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Bullet Spawner.prefab
+    - Assets/Prefabs/Bullet Spawner.prefab.meta
+    - Assets/Prefabs/Bullet.prefab
+    - Assets/Prefabs/Bullet.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Script.meta
+    - Assets/Script/Bullet.cs
+    - Assets/Script/Bullet.cs.meta
+    - Assets/Script/BulletSpawner.cs
+    - Assets/Script/BulletSpawner.cs.meta
+    - Assets/Script/GameManager.cs
+    - Assets/Script/GameManager.cs.meta
+    - Assets/Script/PlayerController.cs
+    - Assets/Script/PlayerController.cs.meta
+    - Assets/Script/Rotator.cs
+    - Assets/Script/Rotator.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
