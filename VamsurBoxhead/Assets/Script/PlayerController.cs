@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public Rigidbody playerRigidbody;
-    public float speed = 8f;
-    public float rotationSpeed = 10.0f;
+    public float speed = 1f;
+    public float rotationSpeed = 100.0f;
     Vector3 lookDirection;
 
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
         float xSpeed = xInput * speed;
         float zSpeed = zInput * speed;
 
-        Vector3 newVelocity = new Vector3(xSpeed, 0f, zSpeed);
+        Vector3 newVelocity = new Vector3(xSpeed, 0f, zSpeed).normalized;
         
         if (!(xInput == 0 && zInput == 0)) {
             transform.position += newVelocity * speed * Time.deltaTime;
