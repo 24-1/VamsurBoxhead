@@ -322,8 +322,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
--r:"C:/Users/FEELCOM/Desktop/unity/VamsurBoxhead/VamsurBoxhead/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
--r:"C:/Users/FEELCOM/Desktop/unity/VamsurBoxhead/VamsurBoxhead/Library/PackageCache/com.unity.visualscripting@1.7.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/82102/Documents/GitHub/VamsurBoxhead/VamsurBoxhead/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/82102/Documents/GitHub/VamsurBoxhead/VamsurBoxhead/Library/PackageCache/com.unity.visualscripting@1.7.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
@@ -344,10 +344,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/Bullet.cs"
 "Assets/Script/BulletSpawner.cs"
+"Assets/Script/Enemy.cs"
 "Assets/Script/FireBullet.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/PlayerController.cs"
+"Assets/Script/PoolManager.cs"
 "Assets/Script/Rotator.cs"
+"Assets/Script/Spawner.cs"
 -langversion:9.0
 
 /deterministic
